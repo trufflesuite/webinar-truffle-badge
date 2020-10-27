@@ -1,0 +1,10 @@
+{
+  "title": "Truffle Badge 2",
+  "type": "object",
+  "properties": {
+      "image": {
+          "type": "string",
+          "description": ""
+      }
+  }
+}
