@@ -7,6 +7,8 @@ contract TruffleBadge is ERC721 {
     constructor() ERC721("TruffleBadge", "TRFL") public {
     }
     
+    /// @notice Ability to add award a badge (via _mint) to a webinar attendee via their EOA 
+    /// @dev What's with that hardcoded id tho?
     function awardBadge(address attendee)
         public
         returns (uint256)
