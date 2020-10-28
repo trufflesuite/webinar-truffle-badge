@@ -6,4 +6,13 @@ contract TruffleBadge is ERC721 {
 
     constructor() ERC721("TruffleBadge", "TRFL") public {
     }
+    
+    function awardBadge(address attendee)
+        public
+        returns (uint256)
+    {
+        uint badgeId = 888;
+        _mint(attendee, badgeId);
+        return badgeId;
+    }
 }
