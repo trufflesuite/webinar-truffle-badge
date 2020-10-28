@@ -7,13 +7,11 @@ const main = async (cb) => {
     const acc3 = '0xB221726f76FdB319e9C7602Cd03C5C2446E9F8F9';
     const acc4 = '0x5023EDB338fC62149e8D7489E51594098582A08F';
 
-    const meta = "xyz";
-
     badge = await TruffleBadge.deployed();
-    await badge.awardBadge(acc1, meta);
-    await badge.awardBadge(acc2, meta);
-    await badge.awardBadge(acc3, meta);
-    await badge.awardBadge(acc4, meta);
+    await badge.awardBadge(acc1);
+    await badge.awardBadge(acc2);
+    await badge.awardBadge(acc3);
+    await badge.awardBadge(acc4);
   } catch(err) {
     console.log('oops', err.message);
   }
