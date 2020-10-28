@@ -1,10 +1,10 @@
 {
-  "title": "Truffle Badge 2",
+  "title": "Truffle Badge 4",
   "type": "object",
   "properties": {
       "image": {
           "type": "string",
-          "description": ""
+          "description": "https://ipfs.infura-ipfs.io/ipfs/QmQcqMmMx1vn8FoN2RtPubsSpKWTFAWsE1p6hdvwv7ofo8/badge4.png"
       }
   }
 }
