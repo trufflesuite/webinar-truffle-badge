@@ -10,8 +10,7 @@ contract("TruffleBadge", function (accounts) {
   describe("Creation", () => {
 
     it("award badge", async () => {
-      const meta = "META";
-      await badge.awardBadge(accounts[1], meta);
+      await badge.awardBadge(accounts[1]);
       assert.equal(
         await badge.balanceOf(accounts[1]),
         1

@@ -12,8 +12,8 @@ contract TruffleBadge is ERC721 {
         public
         returns (uint256)
     {
-        _mint(attendee, 888);
-
-        return newBadgeId;
+        uint badgeId = 888;
+        _mint(attendee, badgeId);
+        return badgeId;
     }
 }
