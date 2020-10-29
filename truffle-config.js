@@ -7,7 +7,12 @@ module.exports = {
      network_id: "*",
     },
     sandbox: {
-      url: `https://sandbox.truffleteams.com/59abc1ee-2123-4491-8507-4408ee2274db`,
+      url: `ws://marshmallow:8002/3ce85486-1f0f-4010-8576-9527eb9b866d`,
+      network_id: "*",
+      gas: 5500000
+    },
+    remote: {
+      url: `https://sandbox.truffleteams.com/2cc01156-56d7-44b5-80cd-7f822f2ef044`,
       network_id: "*",
       gas: 5500000
     }
