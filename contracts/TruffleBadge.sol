@@ -1,30 +1,25 @@
 pragma solidity ^0.6.0;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
+import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 
-contract TruffleBadge is ERC721 {
-    using Counters for Counters.Counter;
-    Counters.Counter private _badgeIds;
+contract TruffleBadge is ERC1155 {
 
-    constructor() ERC721("TruffleBadge", "TRFL") public {
+    constructor() ERC1155("https://badges.trufflesuite.com/{id}.json") public {
     }
     
     /// @notice Ability to add award a badge (via _mint) to a webinar attendee via their EOA 
     /// @dev What's with that hardcoded id tho?
     /// @param attendee Attendee account address to whom the badge is to be awarded
-    /// @param attendenceBadgeURI Uri to the badge metadata (https://ipfs.infura-ipfs.io/ipfs/QmP6AFJbppxmebAgsQJ6mNeBKe22VZGhMzBsSU143XfmiB/meta1.json)
+    /// @param badgeType Type of badge to be awarded
     /// @return Autoincremented badge identifier via the counter utility
-    function awardBadge(address attendee, string memory attendenceBadgeURI)
+    function awardBadge(address attendee, uint badgeType)
         public
         returns (uint256)
     {
-        _badgeIds.increment();
-
-        uint256 newBadgeId = _badgeIds.current();
-        _mint(attendee, newBadgeId);
-        _setTokenURI(newBadgeId, attendenceBadgeURI);
-
-        return newBadgeId;
+        _mint(attendee, badgeType, 1, '');
     }
+
+    // function awardBatch()
+    // _mintBatch(address to, uint256[] ids, uint256[] amounts, bytes data)
+
 }
