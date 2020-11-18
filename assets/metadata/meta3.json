@@ -4,7 +4,7 @@
   "properties": {
       "image": {
           "type": "string",
-          "description": ""
+          "description": "https://ipfs.infura-ipfs.io/ipfs/QmQcqMmMx1vn8FoN2RtPubsSpKWTFAWsE1p6hdvwv7ofo8/badge3.png"
       }
   }
 }
