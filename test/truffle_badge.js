@@ -11,9 +11,9 @@ contract("TruffleBadge", function (accounts) {
 
     it("award badge", async () => {
       const meta = "META";
-      await badge.awardBadge(accounts[1], meta);
+      await badge.awardBadge(accounts[1], 1);
       assert.equal(
-        await badge.balanceOf(accounts[1]),
+        await badge.balanceOf(accounts[1], 1),
         1
       );
     });
