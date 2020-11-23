@@ -18,8 +18,4 @@ contract TruffleBadge is ERC1155 {
     {
         _mint(attendee, badgeType, 1, '');
     }
-
-    // function awardBatch()
-    // _mintBatch(address to, uint256[] ids, uint256[] amounts, bytes data)
-
 }
