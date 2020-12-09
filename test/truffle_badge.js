@@ -4,7 +4,7 @@ contract("TruffleBadge", function (accounts) {
 
   let badge;
   beforeEach(async () => {
-    badge = await TruffleBadge.new();
+    badge = await TruffleBadge.new('0xb050D4F46E28a80B18e6fE5edd96fa6E3643D9f9');
   })
 
   describe("Creation", () => {
