@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -25,7 +26,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -41,15 +43,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/bluer/Developer/truffle-webinar-truffle-badge/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/bluer/Developer/truffle-webinar-truffle-badge/contracts/Migrations.sol\":{\"keccak256\":\"0x7797e159bfd6b953422b4bd6d5de5946971d8b5ed74c4b1f6517d61fe236b851\",\"urls\":[\"bzz-raw://56bdf6130f3ced3e78baa0f3e7f34cb4c5131d90721326056bbf0dd202d8539d\",\"dweb:/ipfs/QmZqRKebKwn6YXejnnPribsyiXLmrAx32JpatFhvS76NKp\"]}},\"version\":1}",
-  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555034801561005057600080fd5b5061021f806100606000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd576146100ae575b600080fd5b61004e6100dc565b6040518082815260200191505060405180910390f35b61006c6100e2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100da600480360360208110156100c457600080fd5b8101908080359060200190929190505050610107565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101ac576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806101b76033913960400191505060405180910390fd5b806001819055505056fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a264697066735822122006c0ccd64f56156dddf7d7cb599783b30f1f7c8a37f736e7d3e8552d9f830f5564736f6c63430006020033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd576146100ae575b600080fd5b61004e6100dc565b6040518082815260200191505060405180910390f35b61006c6100e2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100da600480360360208110156100c457600080fd5b8101908080359060200190929190505050610107565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101ac576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806101b76033913960400191505060405180910390fd5b806001819055505056fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a264697066735822122006c0ccd64f56156dddf7d7cb599783b30f1f7c8a37f736e7d3e8552d9f830f5564736f6c63430006020033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/bluer/Developer/webinar-truffle-badge/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/bluer/Developer/webinar-truffle-badge/contracts/Migrations.sol\":{\"keccak256\":\"0x7797e159bfd6b953422b4bd6d5de5946971d8b5ed74c4b1f6517d61fe236b851\",\"urls\":[\"bzz-raw://56bdf6130f3ced3e78baa0f3e7f34cb4c5131d90721326056bbf0dd202d8539d\",\"dweb:/ipfs/QmZqRKebKwn6YXejnnPribsyiXLmrAx32JpatFhvS76NKp\"]}},\"version\":1}",
+  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555034801561005057600080fd5b5061021f806100606000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd576146100ae575b600080fd5b61004e6100dc565b6040518082815260200191505060405180910390f35b61006c6100e2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100da600480360360208110156100c457600080fd5b8101908080359060200190929190505050610107565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101ac576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806101b76033913960400191505060405180910390fd5b806001819055505056fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a2646970667358221220fc71eb1be290cf61ff8d47d4917446bec7cb1fcafb9e8b07e272901f4d8f381c64736f6c63430006020033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd576146100ae575b600080fd5b61004e6100dc565b6040518082815260200191505060405180910390f35b61006c6100e2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100da600480360360208110156100c457600080fd5b8101908080359060200190929190505050610107565b005b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101ac576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806101b76033913960400191505060405180910390fd5b806001819055505056fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a2646970667358221220fc71eb1be290cf61ff8d47d4917446bec7cb1fcafb9e8b07e272901f4d8f381c64736f6c63430006020033",
   "sourceMap": "66:352:0:-:0;;;113:10;90:33;;;;;;;;;;;;;;;;;;;;66:352;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:0;;;;;;;",
   "deployedSourceMap": "66:352:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;90:33;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;313:103;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;313:103:0;;;;;;;;;;;;;;;;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;;;;;;;;;;;:::o;313:103::-;225:5;;;;;;;;;;;211:19;;:10;:19;;;196:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;402:9:::1;375:24;:36;;;;313:103:::0;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.8.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/Users/bluer/Developer/truffle-webinar-truffle-badge/contracts/Migrations.sol",
+  "sourcePath": "/Users/bluer/Developer/webinar-truffle-badge/contracts/Migrations.sol",
   "ast": {
-    "absolutePath": "/Users/bluer/Developer/truffle-webinar-truffle-badge/contracts/Migrations.sol",
+    "absolutePath": "/Users/bluer/Developer/webinar-truffle-badge/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         32
@@ -464,7 +466,7 @@
     "src": "32:387:0"
   },
   "legacyAST": {
-    "absolutePath": "/Users/bluer/Developer/truffle-webinar-truffle-badge/contracts/Migrations.sol",
+    "absolutePath": "/Users/bluer/Developer/webinar-truffle-badge/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         32
@@ -882,9 +884,17 @@
     "name": "solc",
     "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xCD1116D5eB3846F4888a8CEA6ED134e06d900025",
+      "transactionHash": "0xae86e63cffec0687ee62a575bcb2df8bcff10fe73622799118e2e7f40130b2cf"
+    }
+  },
   "schemaVersion": "3.2.5",
-  "updatedAt": "2020-11-18T21:01:48.094Z",
+  "updatedAt": "2020-12-09T23:44:36.622Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
