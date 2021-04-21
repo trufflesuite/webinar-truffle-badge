@@ -1,4 +1,4 @@
-# Truffle Badge & Gas Stations Network 👋
+# Truffle Badge & Gas Stations Network 🎉
 
 In this step we explore adding [Gas Stations Network](https://github.com/opengsn/gsn) support to the Truffle Badge project enabling users to *gaslessly* claim badges. If you're not already familiar "GSN abstracts away gas to minimize onboarding & UX friction for dapps" thus allowing users to interact with contracts without the need for ETH (or more specifically the need to submit gas with a given a transactions). 
 
